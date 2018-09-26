@@ -1,4 +1,7 @@
-/*
+(function ($, window, document, undefined) {
+    "use strict";
+
+    /*
     ImageViewer v 1.1.3
     Author: Sudhanshu Yadav
     Copyright (c) 2015-2016 to Sudhanshu Yadav - ignitersworld.com , released under the MIT license.
@@ -6,9 +9,8 @@
 */
 
 /*** picture view plugin ****/
-(function ($, window, document, undefined) {
-    "use strict";
-
+    
+    
     //an empty function
     var noop = function () {};
 
